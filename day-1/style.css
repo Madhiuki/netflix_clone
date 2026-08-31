@@ -1,0 +1,14 @@
+.div1{
+    /* box-sizing: border-box; */
+    /* background-color: aqua; */
+    width:80vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    font-size: 22px;
+    color: rgb(201, 212, 203);
+    border:  solid black 2px;
+    text-decoration: overline;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cdef3f67-55ce-4985-a5bb-d009bc472709/d2s7t5f-f17d6352-5b4c-4922-a8ea-29017db2e667.jpg/v1/fit/w_828,h_466,q_70,strp/green_is_serene___desktop_by_ancientsummoner_d2s7t5f-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6Ii9mL2NkZWYzZjY3LTU1Y2UtNDk4NS1hNWJiLWQwMDliYzQ3MjcwOS9kMnM3dDVmLWYxN2Q2MzUyLTViNGMtNDkyMi1hOGVhLTI5MDE3ZGIyZTY2Ny5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uzL85aUvm_Ef4xAdEl0A4KBBf1hdohYk_zvTKM8uwb4);
+    margin: 10px;
+    padding: 10px;
+}
