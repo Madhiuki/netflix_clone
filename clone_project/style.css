@@ -139,12 +139,234 @@ input::placeholder {
 
 main {
     background-color: black;
-    min-height: 500px;
+    /* min-height: 250vh; */
+    
+    height: auto;
+}
+body {
+    overflow-x: hidden;
 }
 .curveborder {
     width: 120%;
     height: 70px;
     margin-left: -10%;
-    border-top: 4px solid #e50914;
+
+    background-color: black;
+
+    border-top: 4px solid #d7262f;
     border-radius: 50% 50% 0 0;
+}
+
+.trending {
+    font-family: Arial, sans-serif;
+    margin-left: 120px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.image-trending {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    gap: 5px;
+}
+
+.trend-card {
+    position: relative;
+    width: 225px;
+    flex-shrink: 0;
+}
+
+.trend-card img {
+    width: 180px;
+    height: 252px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.number {
+    position: absolute;
+
+    left: -20px;
+    bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 110px;
+    line-height: 0.8;
+    font-weight: 700;
+
+    color: #000000;
+
+    -webkit-text-stroke: 2px rgb(232, 232, 232);
+
+    text-shadow: 0 0 24px rgba(8, 8, 8, 0.5);
+}
+
+.freq{
+    color: white;
+    margin: 50px 120px;
+}
+.freq_head{
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.freq_body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    /* height: 10vh; */
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+
+.freq_body summary {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+
+    background-color: #2d2d2d;
+    padding: 25px 30px;
+
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+.freq_body details + details {
+    
+    margin-top: 10px;
+}
+
+.freq_body summary::-webkit-details-marker {
+    display: none;
+}
+
+.freq_body details p {
+    background-color: #2d2d2d;
+    border-top: 1px solid black;
+
+    padding: 30px;
+
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    line-height: 1.4;
+}
+
+.freq_body summary::after {
+    content: "+";
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 35px;
+    font-weight: 100;
+}
+
+
+
+.above-footer p{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-singin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.above-footer input{
+    width: 35vw;
+    height: 9vh;
+    background: rgba(32, 31, 31,0.5);
+    border: 1px solid #777;
+    outline: white;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+
+.above-footer button{
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    width: 15vw;
+    height: 9vh;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+footer{
+    padding-top: 40px;
+    background-color: black;
+    min-height: 100vh;
+    height: auto;
+    padding-left: 120px;
+}
+
+.contact{
+    color: rgb(175, 169, 169);
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+}
+.contact a{
+    color: rgb(175, 169, 169);
+    font-family: Arial, sans-serif;
+}
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-links{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-links a {
+    font-family: Arial, sans-serif;
+    color: #aaa;
+    font-size: 15px;
+    font-weight: 500;
+}
+.lang-sele{
+margin-top: 50px;
+}
+.lang-sele select{
+    background:none;
+    color: white;
+    width: 8vw;
+    height: 5vh;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+}
+.lang-sele h5{
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+    color: #b7b6b6;
+    font-weight: 500;
+    font-size: 14px;
+}
+.lang-sele p{
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+    color: #aaa;
+    font-weight: 500;
+    font-size: 13px;
 }
